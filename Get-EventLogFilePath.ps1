@@ -8,7 +8,7 @@ $EventLogs = (Get-Eventlog -LogName "Windows Powershell" | Where-Object {$_.Inst
 #>
 #endregion
 
-#region Get FilePath
+#region Get-FilePath
 
 (Get-WinEvent -Listlog "Windows Powershell").logfilepath
 
