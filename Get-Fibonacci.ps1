@@ -37,4 +37,14 @@ function Get-Fibonacci{
   }
 }
 ## Example
-#Get-Fibonacci(5)
+#Get-Fibonacci -Num 3 -ZeroStart
+#>0
+#>1
+#>1
+
+#Get-Fibonacci -Num 5
+#1
+#1
+#2
+#3
+#5
